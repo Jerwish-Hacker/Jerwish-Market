@@ -1,0 +1,224 @@
+*{
+    margin: 0;padding: 0;
+}
+.top_box{
+    margin: 0px 0px 50px 0px;
+    width: 100%;
+    height: 40vh;    
+    background-image: url("img/bg1.jpg");
+    background-size: 100% 400%;
+    background-position: top;
+    box-shadow: 0px 0px 1px 1px black;
+}
+.Head_Topic{
+    font-size: 3em;
+    text-align: center;    
+    padding: 10vh 0px 10px 0px;
+    color: white;
+    transition-duration: 2s;    
+}
+.mini_box{    
+    width: 500px;
+    height: 25px;
+    margin: auto;    
+    display: flex;
+}
+#search_logo{
+    width: 10%;
+    height: 100%;    
+    border-radius: 10px 0px 0px 10px;
+    background-color: white;
+    padding: 2px 0px 2px 0px;
+    background-image: url('img/search_icon.png');
+    background-size: 40% 70%;
+    background-repeat: no-repeat;    
+    background-position: center;
+    border-right: .1px solid grey;
+}
+#search_box{
+    all: unset;
+    color: black;
+    background-color: white;
+    height: 25px;
+    width: 60%;
+    padding: 2px 0px 2px 10px;
+    border-right: .1px solid grey;
+}
+#search_btn{
+    all: unset;
+    background-color: white;
+    color: grey;
+    text-align: center;
+    padding: 2px 0px 2px 0px;
+    width: 30%;    
+    height: 100%; 
+    border-radius: 0px 10px 10px 0px;
+    transition-duration: .5s;
+}
+#search_btn:hover{    
+    color: black;
+    font-size: 1.1em;
+}
+#main_box{
+    margin: 10px auto;
+    width: 99%;
+    /* height: 2000px; */
+}
+.box{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;    
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;    
+}
+.pbox{
+    margin: 20px 0px;
+    width: 200px;
+    height: 250px;    
+    background-repeat: no-repeat;
+    background-size: 150%;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;    
+    transition-delay: .2s;
+    color: white;
+}
+.pbox:hover{
+    background-size: 100%;
+    color: black;
+}
+.p1{
+    background-image: url(img/box1/p1.png);
+}
+.p2{
+    background-image: url(img/box1/p2.jpg);
+}
+.p3{
+    background-image: url(img/box1/p3.jpg);
+}
+.p4{
+    background-image: url(img/box1/p7.png);
+}
+.p5{
+    background-image: url(img/box1/p6.webp);
+}
+.podbox{
+    margin: 20px 0px;
+    width: 300px;
+    height: 300px;    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;    
+    color: white;
+    /* border: 1px solid red; */
+}
+.podbox:hover{
+    color: black;
+    font-size: 30px;
+}
+.pod1{
+    background-image: url(img/box2/p3.jpg);
+}
+.pod2{
+    background-image: url(img/box2/p7.jpg);
+}
+.pod3{
+    background-image: url(img/box2/p2.jpg);
+}
+.text_box{
+    width: 90%;
+    margin:auto;
+    height: 800px;
+    position: relative;    
+    transition-duration: 2s;
+    background-image: url('img/tv/tv1.png');
+    background-size: 60% 1000%;
+    background-repeat: no-repeat;
+    background-position: top;
+    color: white;
+    transition-timing-function: ease-in-out;
+}
+.text_box:hover{    
+    background-size: 60% 80%;
+    color: black;    
+}
+#quotes{
+    position: absolute;    
+    font-size: 2em;
+    bottom: 120px;    
+}
+
+.lap_box{
+    width: 90%;
+    margin: auto;
+    height: 1150px;
+    /* border:  2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+.lap{
+    width: 500px;
+    height: 500px;
+    /* border: 2px solid black; */
+    background-size: 100% 70%;    
+    background-repeat: no-repeat;
+    background-position: bottom;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    font-size: 1.5rem;
+    padding: 20px;
+    color: white;
+    border-bottom: .2px solid green ;
+}
+.lap:hover{
+    background-position: center;
+    color: gray;
+    border: none;
+    /* box-shadow: 0px -.2px .2px 0px red;     */
+    border-top: .2px solid red;
+}
+.l1{
+    background-image: url('img/lap/l7.jpg');   
+}
+.l2{
+    background-image: url('img/lap/l4.jpg');
+}
+.l3{
+    background-image: url('img/lap/l10.jpg');
+}
+.l4{
+    background-image: url('img/lap/l11.jpg');
+}
+.company_details{
+    width: 99%;
+    height: 140px;    
+    background-color: white;
+    position: relative;
+}
+#c_name{
+    width: 250px;
+    font-size: 2.5em;
+    position: absolute;    
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    /* color: black; */
+}
+#copy{        
+    text-align: end;
+    font-size: 1.2em;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+#c_details{      
+    font-size: 1.2em;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
