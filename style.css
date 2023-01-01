@@ -14,50 +14,51 @@
     font-size: 3em;
     text-align: center;    
     padding: 10vh 0px 10px 0px;
-    color: white;
-    transition-duration: 2s;    
+    color: white;    
 }
-.mini_box{    
-    width: 500px;
-    height: 25px;
+.mini_box{
+    width: 700px;
+    height: 35px;
     margin: auto;    
     display: flex;
 }
 #search_logo{
     width: 10%;
-    height: 100%;    
+    height: 100%;       
     border-radius: 10px 0px 0px 10px;
     background-color: white;
     padding: 2px 0px 2px 0px;
     background-image: url('img/search_icon.png');
-    background-size: 40% 70%;
+    background-size: 30% 50%;
     background-repeat: no-repeat;    
-    background-position: center;
-    border-right: .1px solid grey;
+    background-position: center;    
 }
 #search_box{
     all: unset;
     color: black;
     background-color: white;
-    height: 25px;
-    width: 60%;
-    padding: 2px 0px 2px 10px;
+    height: 35px;
+    width: 65%;
+    padding: 2px 0px 2px 0px;
     border-right: .1px solid grey;
+    font-size: 13px;
 }
 #search_btn{
     all: unset;
     background-color: white;
-    color: grey;
+    color: black;
     text-align: center;
     padding: 2px 0px 2px 0px;
-    width: 30%;    
+    width: 25%;    
     height: 100%; 
     border-radius: 0px 10px 10px 0px;
     transition-duration: .5s;
+    font-size: 13px;
 }
 #search_btn:hover{    
-    color: black;
-    font-size: 1.1em;
+    font-size: .9rem;
+    background-color: aliceblue;
+    cursor: pointer;
 }
 #main_box{
     margin: 10px auto;
@@ -78,14 +79,17 @@
     height: 250px;    
     background-repeat: no-repeat;
     background-size: 150%;
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out;    
-    transition-delay: .2s;
+    transition-duration: .6s;
+    transition-timing-function: ease-in-out;        
     color: white;
+    font-size: 1rem;    
 }
 .pbox:hover{
     background-size: 100%;
     color: black;
+    background-position: right;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 .p1{
     background-image: url(img/box1/p1.png);
@@ -107,7 +111,8 @@
     width: 300px;
     height: 300px;    
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 95%;
+    background-position: bottom;
     transition-duration: .5s;
     transition-timing-function: ease-in-out;    
     color: white;
@@ -116,6 +121,7 @@
 .podbox:hover{
     color: black;
     font-size: 30px;
+    cursor: pointer;
 }
 .pod1{
     background-image: url(img/box2/p3.jpg);
@@ -131,13 +137,13 @@
     margin:auto;
     height: 800px;
     position: relative;    
-    transition-duration: 2s;
+    transition-duration: 1s;
     background-image: url('img/tv/tv1.png');
     background-size: 60% 1000%;
     background-repeat: no-repeat;
     background-position: top;
     color: white;
-    transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;    
 }
 .text_box:hover{    
     background-size: 60% 80%;
@@ -145,10 +151,9 @@
 }
 #quotes{
     position: absolute;    
-    font-size: 2em;
+    font-size: 2.1em;
     bottom: 120px;    
 }
-
 .lap_box{
     width: 90%;
     margin: auto;
@@ -166,7 +171,7 @@
     background-size: 100% 70%;    
     background-repeat: no-repeat;
     background-position: bottom;
-    transition: 1s;
+    transition: .5s;
     transition-timing-function: ease-in-out;
     transition-property: all;
     font-size: 1.5rem;
@@ -176,10 +181,11 @@
 }
 .lap:hover{
     background-position: center;
-    color: gray;
+    color: black;
     border: none;
     /* box-shadow: 0px -.2px .2px 0px red;     */
     border-top: .2px solid red;
+    cursor: pointer;
 }
 .l1{
     background-image: url('img/lap/l7.jpg');   
@@ -194,31 +200,33 @@
     background-image: url('img/lap/l11.jpg');
 }
 .company_details{
+    margin-top: 20px;
     width: 99%;
-    height: 140px;    
-    background-color: white;
+    height: 180px;
+    background-color:aliceblue;
     position: relative;
 }
 #c_name{
-    width: 250px;
+    width: 20%;
     font-size: 2.5em;
     position: absolute;    
     top: 0;
     right: 0;
     left: 0;
-    margin: auto;
+    margin: 20px auto;
+    text-align: center;
     /* color: black; */
 }
 #copy{        
     text-align: end;
-    font-size: 1.2em;
+    font-size: 1em;
     position: absolute;
     bottom: 10px;
     right: 10px;
 }
 #c_details{      
-    font-size: 1.2em;
+    font-size: 1em;
     position: absolute;
     bottom: 10px;
     left: 10px;
-}
+}   
