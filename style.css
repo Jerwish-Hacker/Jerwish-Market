@@ -230,3 +230,17 @@
     bottom: 10px;
     left: 10px;
 }   
+#warning{
+    display: none;
+}
+
+@media only screen and (max-width:1220px) {
+#body_div{
+    display: none;
+}
+#warning{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+}
+}
